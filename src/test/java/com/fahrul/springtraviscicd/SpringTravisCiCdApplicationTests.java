@@ -21,8 +21,5 @@ public class SpringTravisCiCdApplicationTests {
 	public void testPing()throws Exception{
 		mockMvc.perform(get("/ping")).andExpect(status().isOk());
 	}
-//	@Test
-//	public void testPingFail() throws Exception{
-//		mockMvc.perform(get("/")).andExpect(status().isOk());
-//	}
+
 }
